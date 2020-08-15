@@ -1,0 +1,436 @@
+/******** Responsive ************/
+
+
+/**** For Extra Large Device (Laptop) (Container-Width:1140)  ***/
+@media screen and (min-width:1200px){
+
+  } 
+
+/**** For Large Device (Container-Width:960px)  ***/
+@media screen and (min-width:992px) and (max-width:1199.98px){
+  /**** Slider ****/
+  .single-slider {
+    padding: 100px 0;
+  }
+  .slider-text h2 {
+    font-size: 48px;
+  }
+  /**** Hire Us ****/
+  .cta-text p {
+    margin-top: 20px;
+  }
+  .custom-btn {
+    padding: 15px 15px;
+  }
+  /****** Feature ****/
+  .feature-content {
+    transform: translateY(81%);
+  }
+  .feature-title {
+    margin: 5px 0;
+  }
+  .feature-content p {
+    line-height: 18px;
+  }
+  /* Blog & Testimonial Slider ***/
+
+  /**** Video-Bg **/
+  .video-section {
+	margin-top: 30px;
+}
+  
+  /***** Footer *****/
+  .footer-form form input[type="text"] {
+    width: 64%;
+  }
+  .footer-form form input[type="submit"] {
+    width: 36%;
+  }
+}
+
+/**** For Medium Device (Container-Width:720px)  ***/
+@media screen and (min-width:768px) and (max-width:991.98px){
+
+  /**** Menu ****/
+  nav#header-menu ul li a {
+    padding: 10px 8px;
+  }
+  nav#header-menu ul li ul.submenu {
+    width: 150px;
+  }
+
+  /**** Slider ****/
+  .single-slider {
+    padding: 100px 0;
+  }
+  .slider-text h2 {
+    font-size: 48px;
+  }
+  /**** Hire Us ****/
+  .cta-text p {
+    margin-top: 20px;
+  }
+  .custom-btn {
+    padding: 15px 15px;
+  }
+  /**** Feature ***/
+  .feature-title h4 {
+    font-size: 17px;
+  }
+  .feature-content p {
+    display: none;
+  }
+  .feature-content {
+    transform: translateY(70%);
+  }
+/**** Service Area ***/
+.service-area {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+  /***** Latest Project *****/
+  .project-area {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+ /**** Video-Bg **/
+ .video-area {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.video-section {
+      margin-top: 100px;
+    }
+/***** Working Area ***/
+.working-area {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+  /** Blog & Testimonial Area ***/
+  .blog-test-area {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .blog-img {
+    float: inherit;
+    margin-bottom: 20px;
+  }
+  .blog-img a {
+    display: block;
+  }
+  .testimonial-active .dp-thumb {
+    float: inherit;
+    text-align: center;
+    margin-top: 48px;
+  }
+  .testimonial-active .dp-title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .owl-carousel .owl-item .dp-thumb img {
+    width: 100px;
+    height: 100px;
+    border-radius: inherit;
+  }
+  /**** Footer Part *****/
+  .footer-widget .social-links a {
+    margin-right: 5px;
+  }
+  .footer-form form input[type="text"] {
+    width: 100%;
+  }
+  .footer-form form input[type="submit"] {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 35px;
+  }
+}
+
+/**** For Small Device (Container-Width:540px)   ***/
+@media screen and (min-width:576px) and (max-width:767.98px){
+
+  /* Logo **/
+  .header-logo {
+    text-align: center;
+    margin-top: 10px;
+  }
+  /***** Menu ******/
+  nav#header-menu ul li a {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+  nav#header-menu ul li a:first-child {
+    padding-left: 0;
+  }
+  nav#header-menu ul li ul.submenu {
+    width: 150px;
+  }
+  nav#header-menu ul li ul.submenu li a {
+    font-size: 13px;
+  }
+  /****** Slider ******/
+  .single-slider {
+    padding: 50px 0;
+  }
+  .slider-text h4 {
+    font-size: 20px;
+  }
+  .slider-text h2 {
+    font-size: 36px;
+  }
+  .custom-btn {
+    padding: 10px 20px;
+  }
+/**** Hire Us ****/
+.cta-text p {
+  margin-top: 20px;
+}
+.custom-btn {
+  padding: 15px 15px;
+}
+  /**** Feature ***/
+  .features-area {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  .single-feature {
+    margin-bottom: 15px;
+  }
+  .feature-img img {
+    height: 210px;
+  }
+ /**** service-area ****/
+  .service-area {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+   /***** Latest Project *****/
+   .project-area {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /***** Why Choose Area Start ***/
+  .video-section {
+    margin-top: 0;
+  }
+  .video-area {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .video-text {
+    padding-top: 20px;
+  }
+  /***** Working Area ***/
+  .working-area {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /** Blog & Testimonial Area ***/
+  .blog-test-area {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .blog-wrap {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  /**** Brand Area ***/
+  .brand-area {
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /**** Footer Part ***/
+  .footer-top {
+    margin-left: inherit;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  .footer-widget {
+    margin-bottom: 20px;
+  }
+
+}
+
+/**** For Extra Small Device (Container-Width:Auto)  ***/
+@media screen and (max-width:575.98px){
+  /*** Logo ***/
+  .header-logo {
+    text-align: center;
+    margin-top: 10px;
+  }
+  /***** Menu ******/
+.mean-container .mean-bar::before {
+	position: absolute;
+	content: 'Menu';
+	left: 20px;
+	top: 10px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 23px;
+	letter-spacing: 2px;
+}
+  /* Search Box ***/
+  .search-box::before {
+    display: none;
+  }
+/****** Mean Menu *******/
+  .mean-container .mean-bar {
+    background: #222;
+    margin-top: 20px;
+  }
+  .mean-container a.meanmenu-reveal {
+    margin-top: 0px;
+  }
+  .mean-container .mean-nav {
+    margin-top: 50px;
+  }
+  .mean-container a.meanmenu-reveal span {
+    background: #fff;
+  }
+  .mean-container .mean-nav ul li a.mean-expand {
+    height: 30px;
+  }
+  /**** Slider ****/
+  .single-slider {
+    padding: 50px 0;
+  }
+  .slider-text h4 {
+    font-size: 20px;
+  }
+  .slider-text h2 {
+    font-size: 36px;
+  }
+  .custom-btn {
+    padding: 10px 20px;
+  }
+  /**** Hire Us ****/
+  .cta-text p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  .custom-btn {
+    padding: 10px 10px;
+    font-size: 15px;
+  }
+ /**** Feature ***/
+ .features-area {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.single-feature {
+  margin-bottom: 15px;
+}
+.feature-img img {
+  height: 210px;
+}
+/*** Service Area ***/
+.service-area {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+/***** Latest Project *****/
+.project-area {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+/***** Why Choose Area Start ***/
+.video-section {
+	margin-top: 0;
+}
+.video-area {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.video-text {
+  padding-top: 20px;
+}
+
+/***** Working Area ***/
+.working-area {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/***** Blog & Testmonial Area ***/
+.blog-test-area {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.blog-wrap {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+.blog-img {
+  float: inherit;
+  margin-bottom: 20px;
+}
+.blog-img a {
+  display: block;
+}
+/** Footer Part ***/
+.footer-top {
+	padding-top: 15px;
+}
+.footer-widget {
+	text-align: center;
+  margin-bottom: 20px;
+}
+.footer-widget-title {
+	margin-bottom: 15px;
+}
+.footer-menu ul li {
+	padding-left: 10px;
+	display: inline-block;
+	margin-right: 10px;
+}
+}
+
+/**** Others Small Device  ***/
+@media screen and (max-width:400px){
+  .feature-content p {
+    display: none;
+  }
+  .feature-title h4 {
+    font-size: 31px;
+    color: #fff;
+    display: block;
+    text-align: center;
+  }
+  .feature-title h4 i {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  .feature-content a{
+    display: block;
+    text-align: center;
+  }
+
+  
+}
+@media screen and (max-width:320px){
+  /*** Hire Us ***/
+  .cta-btn {
+    margin-top: 25px;
+  }
+  .custom-btn {
+    padding: 5px 5px;
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
+ 
